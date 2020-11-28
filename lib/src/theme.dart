@@ -41,16 +41,16 @@ class ThemeData {
     TextStyle subTitle,
     TextStyle body,
     TextStyle button,
-  }): this.heading1 = TextStyle(fontSize: 48, color: color),
-    this.heading2 = TextStyle(fontSize: 40, color: color),
-    this.heading3 = TextStyle(fontSize: 32, color: color),
-    this.heading4 = TextStyle(fontSize: 28, color: color),
-    this.heading5 = TextStyle(fontSize: 24, color: color),
-    this.heading6 = TextStyle(fontSize: 20, color: color),
-    this.title = TextStyle(fontSize: 18, color: color),
-    this.subTitle = TextStyle(fontSize: 16, color: Colors.grey),
-    this.body = TextStyle(fontSize: 14, color: color),
-    this.button = TextStyle(fontSize: 18, decoration: TextDecoration.underline, color: color);    
+  }): this.heading1 = TextStyle(fontSize: 48, color: color, fontFamily: 'Source Code Pro', fontWeight: FontWeight.w200, package: 'funk'),
+    this.heading2 = TextStyle(fontSize: 40, color: color, fontFamily: 'Source Code Pro', fontWeight: FontWeight.w200, package: 'funk'),
+    this.heading3 = TextStyle(fontSize: 32, color: color, fontFamily: 'Source Code Pro', fontWeight: FontWeight.w200, package: 'funk'),
+    this.heading4 = TextStyle(fontSize: 28, color: color, fontFamily: 'Source Code Pro', fontWeight: FontWeight.w200, package: 'funk'),
+    this.heading5 = TextStyle(fontSize: 24, color: color, fontFamily: 'Source Code Pro', fontWeight: FontWeight.w200, package: 'funk'),
+    this.heading6 = TextStyle(fontSize: 20, color: color, fontFamily: 'Source Code Pro', fontWeight: FontWeight.w200, package: 'funk'),
+    this.title = TextStyle(fontSize: 18, color: color, fontFamily: 'Source Code Pro', fontWeight: FontWeight.w300, package: 'funk'),
+    this.subTitle = TextStyle(fontSize: 16, color: Colors.grey, fontFamily: 'Source Code Pro', fontWeight: FontWeight.w300, package: 'funk'),
+    this.body = TextStyle(fontSize: 14, color: color, fontFamily: 'Source Code Pro', package: 'funk'),
+    this.button = TextStyle(fontSize: 18, decoration: TextDecoration.underline, color: color, fontFamily: 'Source Code Pro', package: 'funk');    
 
   static ThemeData blackAndWhite({Color accentColor}) => 
     ThemeData(accentColor: accentColor);

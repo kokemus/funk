@@ -118,13 +118,13 @@ class _MasterScreenState extends State<MasterScreen> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Text('today', style: FunkTheme.of(context).theme.heading6,),
+                  Text('today', style: FunkTheme.of(context).theme.heading5,),
                   Text('sunny', style: FunkTheme.of(context).theme.heading1.copyWith(color: Color(0xFFFF4D03F)),),
                   Text('23 degrees', style: FunkTheme.of(context).theme.heading3,),
                   Container(height: 80,),
-                  Text('tomorrow', style: FunkTheme.of(context).theme.body,),
-                  Text('cloudy', style: FunkTheme.of(context).theme.heading3.copyWith(color: Colors.grey),),
-                  Text('18 degrees', style: FunkTheme.of(context).theme.subTitle,),
+                  Text('tomorrow', style: FunkTheme.of(context).theme.heading6,),
+                  Text('cloudy', style: FunkTheme.of(context).theme.heading4.copyWith(color: Colors.grey),),
+                  Text('18 degrees', style: FunkTheme.of(context).theme.heading5,),
                 ],
               )
             );
